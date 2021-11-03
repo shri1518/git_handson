@@ -21,9 +21,11 @@ const LoginForm =()=>{
   <Form.Group className="mb-3" controlId="formBasicCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
   </Form.Group>
+  <div className="d-grid gap-2">
   <Button variant="primary" type="submit">
     Submit
   </Button>
+ </div>
 </Form>
   )}
 
